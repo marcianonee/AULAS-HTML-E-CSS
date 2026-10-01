@@ -1,0 +1,51 @@
+ body {
+            background-color: burlywood;
+        }
+
+        h1 {
+            background-color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            border-radius: 18px;
+            padding: 14px;
+            display: inline-block;
+        }
+
+        .primeiro_comando {
+            background-color: aquamarine;
+            padding: 2px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h3 {
+            background-color: darkmagenta;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-flex;
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .autor {
+            background-color: rgb(170, 70, 193);
+            border-radius: 10px;
+            padding: 18px;
+            display: inline-block;
+        }
+
+        .eleicoes {
+            background-color: white;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            text-decoration: none;
+            background-color: rgb(23, 207, 149);
+            padding: 12px;
+            border-radius: 4px;
+        }

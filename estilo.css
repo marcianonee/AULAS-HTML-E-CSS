@@ -169,3 +169,32 @@
          width: 100%;
      }
  }
+
+ .centro-formacao {
+    padding: 20px;
+}
+
+.tabela-horario {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: darkmagenta;
+    color: white;
+}
+
+td {
+    background-color: white;
+}

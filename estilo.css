@@ -9,7 +9,7 @@
      border-radius: 18px;
      padding: 14px;
      display: inline-block;
-     /* para border-rediu terminar no final de txto */
+     /* para border-redius terminar no final de txto */
  }
 
  h3 {
@@ -54,3 +54,111 @@
      text-decoration: none;
      margin-right: 20px;
  }
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 18px;
+    padding: 14px;
+    display: inline-block;
+    /* Faz o fundo terminar junto com o texto */
+}
+
+h3 {
+    background-color: rgb(214, 168, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.menu {
+    background-color: darkmagenta;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.eleicoes {
+    background-color: white;
+    padding: 10px;
+}
+
+
+/* Caixa de cada pessoa */
+.biografia {
+    background-color: rgb(230, 195, 150);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Organiza imagem e texto lado a lado */
+.conteudo-biografia {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+/* Tamanho das imagens */
+.conteudo-biografia img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Texto */
+.conteudo-biografia p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+.autor {
+    background-color: rgb(170, 70, 193);
+    border-radius: 10px;
+    padding: 18px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: rgb(23, 207, 149);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+
+/* Para celular */
+@media (max-width: 600px) {
+
+    .conteudo-biografia {
+        flex-direction: column;
+    }
+
+    .conteudo-biografia img {
+        width: 100%;
+    }
+}

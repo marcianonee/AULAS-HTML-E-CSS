@@ -180,7 +180,8 @@
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border: "1";
+    
 }
 
 th,
@@ -191,7 +192,7 @@ td {
 }
 
 th {
-    background-color: darkmagenta;
+    background-color: cornflowerblue;
     color: white;
 }
 

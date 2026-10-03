@@ -171,31 +171,48 @@
  }
 
  .centro-formacao {
-    padding: 20px;
-}
+     padding: 20px;
+ }
 
-.tabela-horario {
-    overflow-x: auto;
-}
+ .tabela-horario {
+     overflow-x: auto;
+ }
 
-table {
-    width: 100%;
-    border: "1";
-    
-}
+ table {
+     width: 100%;
+     border: "1";
 
-th,
-td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-}
+ }
 
-th {
-    background-color: cornflowerblue;
-    color: white;
-}
+ th,
+ td {
+     border: 1px solid black;
+     padding: 10px;
+     text-align: center;
+ }
 
-td {
-    background-color: white;
-}
+ th {
+     background-color: cornflowerblue;
+     color: white;
+ }
+
+ td {
+     background-color: white;
+ }
+
+ .titulo-tabela-funcionarios {
+     background-color: black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     padding: 8px;
+     padding-left: 11px;
+     border-radius: 10px;
+     text-align: center;
+     display: inline-block;
+ }
+
+ .dados-tabela {
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+     width: 100%;
+     border: "1";
+ }

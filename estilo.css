@@ -352,3 +352,52 @@ form button:hover {
     }
 
 }
+form {
+    background-color: #f2f2f2;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+/* mantém os campos normais grandes */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* cada opção do radio */
+.opcao-radio {
+    margin-bottom: 15px;
+}
+
+/* radio pequeno, sem ocupar linha toda */
+.opcao-radio input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+/* label ao lado do radio */
+.opcao-radio label {
+    display: inline;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

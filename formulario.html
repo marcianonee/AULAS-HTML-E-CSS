@@ -1,19 +1,160 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
-    <link rel="stylesheet" href="estilo.css">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Formulários</title>
+
+    <link rel="stylesheet"
+          href="estilo.css">
+
 </head>
+
+
 <body>
+
+
+    <!-- Menu do formulário -->
     <nav class="navegadores">
-        <a href="index.html">Voltar a Página Principal</a>
-        <a href="https://github.com/marcianonee">SOBRE NÓS</a>
-        <a href="saude.com">SAÚDE PARA TODOS</a>
-        <a href="desporto.com">DESPORTO</a>
-        <a href="politica.com">POLITICA</a>
+
+        <a href="index.html">
+            Voltar à Página Principal
+        </a>
+
+        <a href="https://github.com/marcianonee"
+           target="_blank"
+           rel="noopener noreferrer">
+            SOBRE NÓS
+        </a>
+
+        <a href="https://saude.com">
+            SAÚDE PARA TODOS
+        </a>
+
+        <a href="https://desporto.com">
+            DESPORTO
+        </a>
+
+        <a href="https://politica.com">
+            POLÍTICA
+        </a>
+
     </nav>
-    
+
+
+    <!-- Formulário de cadastro -->
+    <form action="" method="post">
+
+        <h2 class="titulo_cadastro">
+            Sistema de Cadastro
+        </h2>
+
+
+        <!-- Nome -->
+        <label for="inome_completo">
+            <strong>Nome:</strong>
+        </label>
+
+        <input type="text"
+               name="nome_completo"
+               id="inome_completo"
+               placeholder="Digite seu nome"
+               required>
+
+
+        <!-- Sobrenome -->
+        <label for="isobreNome">
+            <strong>Sobrenome:</strong>
+        </label>
+
+        <input type="text"
+               name="sobre_nome"
+               id="isobreNome"
+               placeholder="Digite seu sobrenome"
+               required>
+
+
+        <!-- Data de nascimento -->
+        <label for="idata-nascimento">
+            <strong>Data de Nascimento:</strong>
+        </label>
+
+        <input type="date"
+               name="data_nascimento"
+               id="idata-nascimento"
+               required>
+
+
+        <!-- Endereço -->
+        <label for="iendereco">
+            <strong>Endereço:</strong>
+        </label>
+
+        <input type="text"
+               name="endereco"
+               id="iendereco"
+               placeholder="Rua Bifa Có, 100"
+               required>
+
+
+        <!-- E-mail -->
+        <label for="iemail">
+            <strong>E-mail:</strong>
+        </label>
+
+        <input type="email"
+               name="email"
+               id="iemail"
+               placeholder="bifa2026@gmail.com"
+               required>
+
+
+        <!-- Senha -->
+        <label for="isenha">
+            <strong>Senha:</strong>
+        </label>
+
+        <input type="password"
+               name="senha"
+               id="isenha"
+               placeholder="Informe uma senha segura"
+               required>
+
+
+        <!-- Contato -->
+        <label for="icontato">
+            <strong>Contato:</strong>
+        </label>
+
+        <input type="tel"
+               name="contato"
+               id="icontato"
+               placeholder="(245) 95 6803610"
+               required>
+
+
+        <!-- Botão de cadastro -->
+        <button type="submit">
+            Cadastrar
+        </button>
+
+    </form>
+
+
+    <p class="pagina_inicial">
+
+        <a href="index.html">
+            Voltar à Página Principal
+        </a>
+
+    </p>
+
+
 </body>
+
 </html>

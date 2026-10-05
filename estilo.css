@@ -1,233 +1,354 @@
- h1 {
-     background-color: white;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     text-align: center;
-     border-radius: 18px;
-     padding: 14px;
-     display: inline-block;
-     /* para border-redius terminar no final de txto */
- }
+/* ======================================
+   CONFIGURAÇÕES GERAIS
+====================================== */
 
- h3 {
-     background-color: rgb(214, 168, 214);
-     font-family: Arial, Helvetica, sans-serif;
-     display: inline-flex;
-     border-radius: 8px;
-     padding: 12px;
- }
+* {
+    box-sizing: border-box;
+}
 
- .autor {
-     background-color: rgb(170, 70, 193);
-     border-radius: 10px;
-     padding: 18px;
-     display: inline-block;
- }
-
- .eleicoes {
-     background-color: white;
-     padding: 10px;
- }
-
- footer {
-     text-align: center;
-     padding: 10px;
- }
-
- footer a {
-     text-decoration: none;
-     background-color: rgb(23, 207, 149);
-     padding: 12px;
-     border-radius: 4px;
- }
-
- .menu {
-     background-color: darkmagenta;
-     padding: 15px;
-     border-radius: 12px;
- }
-
- .menu a {
-     color: white;
-     text-decoration: none;
-     margin-right: 20px;
- }
-
- * {
-     box-sizing: border-box;
- }
-
- body {
-     background-color: burlywood;
-     margin: 0;
-     padding: 10px;
- }
-
- h1 {
-     background-color: white;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     text-align: center;
-     border-radius: 18px;
-     padding: 14px;
-     display: inline-block;
-     /* Faz o fundo terminar junto com o texto */
- }
-
- h3 {
-     background-color: rgb(214, 168, 214);
-     font-family: Arial, Helvetica, sans-serif;
-     display: inline-block;
-     border-radius: 8px;
-     padding: 12px;
- }
-
- .menu {
-     background-color: darkmagenta;
-     padding: 15px;
- }
-
- .menu a {
-     color: white;
-     text-decoration: none;
-     margin-right: 20px;
- }
-
- .eleicoes {
-     background-color: white;
-     padding: 10px;
- }
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
- /* Caixa de cada pessoa */
- .biografia {
-     background-color: rgb(68, 173, 52);
-     margin-bottom: 20px;
-     padding: 15px;
-     border-radius: 10px;
- }
+/* ======================================
+   TÍTULOS
+====================================== */
+
+h1 {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 18px;
+    padding: 14px;
+    display: inline-block;
+}
+
+h3 {
+    background-color: rgb(214, 168, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 12px;
+}
 
 
- /* Organiza imagem e texto lado a lado */
- .conteudo-biografia {
-     display: flex;
-     gap: 20px;
-     align-items: flex-start;
- }
+/* ======================================
+   MENU PRINCIPAL
+====================================== */
 
- .site-partido {
-     display: flex;
-     gap: 20px;
-     align-items: flex-start;
- }
+.menu {
+    background-color: darkmagenta;
+    padding: 15px;
+    border-radius: 12px;
+}
 
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
 
- /* Tamanho das imagens */
- .conteudo-biografia img {
-     width: 250px;
-     height: auto;
-     border-radius: 8px;
- }
-
-
- /* Texto */
- .conteudo-biografia p {
-     margin: 0;
-     line-height: 1.5;
- }
+.menu p {
+    color: white;
+}
 
 
- .autor {
-     background-color: rgb(170, 70, 193);
-     border-radius: 10px;
-     padding: 18px;
-     display: inline-block;
- }
+/* ======================================
+   NOTÍCIAS
+====================================== */
 
- footer {
-     text-align: center;
-     padding: 20px;
- }
-
- footer a {
-     text-decoration: none;
-     background-color: rgb(23, 207, 149);
-     padding: 12px;
-     border-radius: 4px;
- }
+.eleicoes {
+    background-color: white;
+    padding: 10px;
+}
 
 
- /* Para celular */
- @media (max-width: 600px) {
+/* ======================================
+   BIOGRAFIAS
+====================================== */
 
-     .conteudo-biografia {
-         flex-direction: column;
-     }
+/* Caixa de cada pessoa */
+.biografia {
+    background-color: rgb(68, 173, 52);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
 
-     .conteudo-biografia img {
-         width: 100%;
-     }
- }
 
- .centro-formacao {
-     padding: 20px;
- }
+/* Coloca a imagem e o texto lado a lado */
+.conteudo-biografia {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
 
- .tabela-horario {
-     overflow-x: auto;
- }
 
- table {
-     width: 100%;
-     border: "1";
+/* Tamanho das imagens */
+.conteudo-biografia img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
 
- }
 
- th,
- td {
-     border: 1px solid black;
-     padding: 10px;
-     text-align: center;
- }
+/* Texto das biografias */
+.conteudo-biografia p {
+    margin: 0;
+    line-height: 1.5;
+}
 
- th {
-     background-color: cornflowerblue;
-     color: white;
- }
 
- td {
-     background-color: white;
- }
+/* ======================================
+   SITE DO PARTIDO
+====================================== */
 
- .titulo-tabela-funcionarios {
-     background-color: black;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     color: white;
-     padding: 8px;
-     padding-left: 11px;
-     border-radius: 10px;
-     text-align: center;
-     display: inline-block;
- }
+.site-partido {
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
 
- .dados-tabela {
-     font-family: Tahoma, Geneva, Verdana, sans-serif;
-     width: 100%;
-     border: "1";
- }
+.site-partido a {
+    margin-left: 10px;
+}
 
- body {
-     background-color: aliceblue;
- }
 
- .navegadores {
-     background-color: aquamarine;
-     border-radius: 19px;
-     padding: 20px;
-     text-decoration: none;
-     margin-right: 20px;
- }
+/* ======================================
+   AUTOR
+====================================== */
 
- .pagina_inicial {
-     
-     text-decoration: none;
-     margin-right: 20px;
- }
+.autor {
+    background-color: rgb(170, 70, 193);
+    border-radius: 10px;
+    padding: 18px;
+    display: inline-block;
+}
+
+
+/* ======================================
+   CENTRO DE FORMAÇÃO
+====================================== */
+
+.centro-formacao {
+    padding: 20px 0;
+}
+
+
+/* Permite mover a tabela para os lados
+   quando a tela é pequena */
+.tabela-horario {
+    overflow-x: auto;
+}
+
+
+/* ======================================
+   TABELAS
+====================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+
+/* ======================================
+   TABELA DOS FUNCIONÁRIOS
+====================================== */
+
+.tabela-salarial {
+    margin-top: 20px;
+}
+
+.titulo-tabela-funcionarios {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 8px 11px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.dados-tabela {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+
+/* ======================================
+   CARDÁPIO
+====================================== */
+
+.cardapio {
+    margin-top: 30px;
+}
+
+.titulo-cardapio {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+/* ======================================
+   RODAPÉ
+====================================== */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: rgb(23, 207, 149);
+    color: black;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+
+/* ======================================
+   PÁGINA DO FORMULÁRIO
+====================================== */
+
+.navegadores {
+    background-color: aquamarine;
+    border-radius: 19px;
+    padding: 20px;
+}
+
+.navegadores a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+
+/* Formulário */
+form {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+
+/* Título do formulário */
+.titulo_cadastro {
+    text-align: center;
+}
+
+
+/* Rótulos dos campos */
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* Campos do formulário */
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+/* Efeito ao clicar no campo */
+form input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+
+/* Botão de cadastro */
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Efeito ao passar o mouse */
+form button:hover {
+    background-color: purple;
+}
+
+
+/* Link para voltar */
+.pagina_inicial {
+    text-align: center;
+}
+
+.pagina_inicial a {
+    text-decoration: none;
+}
+
+
+/* ======================================
+   RESPONSIVIDADE PARA CELULAR
+====================================== */
+
+@media (max-width: 600px) {
+
+    /* Menu fica mais organizado no celular */
+    .menu a,
+    .navegadores a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+    /* Imagem e texto ficam um abaixo do outro */
+    .conteudo-biografia {
+        flex-direction: column;
+    }
+
+
+    /* Imagem ocupa a largura disponível */
+    .conteudo-biografia img {
+        width: 100%;
+    }
+
+
+    /* Formulário aproveita melhor a tela */
+    form {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+}

@@ -352,6 +352,7 @@ form button:hover {
     }
 
 }
+
 form {
     background-color: #f2f2f2;
     max-width: 500px;
@@ -400,4 +401,35 @@ form button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.pagina_1 {
+    background-color: chocolate;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.Meus-Divs {
+    background-color: cadetblue;
+    border-radius: 14px;
+    padding: 10px;
+    display:flexbox;
+}
+
+.div_0{
+    background-color: aquamarine;
+    color: crimson;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 12px;
+}
+.div_1{
+    background-color: white;
+    color: blueviolet;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 12px;
+    line-height: 1.5;
+  
 }
